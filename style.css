@@ -1,0 +1,145 @@
+* { 
+    font-family: 'Roboto', sans-serif !important;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e2e2; 
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* box-shadow: 6px 2px 4px rgba(0,0,0,0.4); */
+    background-color: #ffffff; 
+    height: 88px;    
+}
+
+.header__content {
+    width: 800px;
+    padding-top: 25px;
+}
+
+.header__title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3b5bdb;
+    display: inline;
+    margin-top: 15px;
+    max-width: 200px;
+    
+}
+
+.form__container {
+    width: 800px;
+    margin: auto;
+    background-color: #ffffff; 
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 10px
+}
+
+.tasks__container {
+    width: 800px;
+    margin: auto;
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 10px
+}
+
+.form__button--add-task {
+    background-color: #3b5bdb; 
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.input__box {
+    background-color: #ebebeb;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    display: flex;
+}
+
+.form__input--text {
+    width: 48%;
+    float: left;
+}
+
+.form__input--priority {
+    width: 48%;
+    float: right;
+}
+
+.form__button--add-task {
+    color: white;
+    text-align: center; 
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;    
+    cursor: pointer;
+}
+
+.header__input--search {
+    width: 500px;
+    float: right;
+}
+
+.form__input-container {
+    display: flow-root;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.task-type {
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    float: left;
+}
+
+.span-urgent {
+    background-color: #e40404 !important;
+}
+
+.span-important {
+    background-color: #f3a703 !important;
+}
+
+.span-normal {
+    background-color: #028302 !important;
+}
+
+.task__item {
+    display: flow-root;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid magenta;     */
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 7px;  
+}
+
+.task-info__container p {
+    margin-left: 10px;
+    float: left;
+}
+
+.task__button--remove-task {
+    float: right;
+    background-image: url('assets/trash-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 0px;
+    background-color: #ebebeb;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
